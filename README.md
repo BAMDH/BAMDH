@@ -26,7 +26,7 @@ A microservice-based pipeline for data migration and enrichment, deployed on Kub
 `Python` `RabbitMQ` `Kubernetes` `Helm` `Prometheus` `Grafana`
 
 ### [DNS Server](https://github.com/BAMDH/DNS-server)
-A distributed DNS system featuring a C-based interceptor implementing DNS protocol handling, a Python API, a health-checker deployed as a StatefulSet, and a React administration interface. Supports single-target, multi-value, weighted, round-robin, and geolocation-based routing.
+A distributed DNS system featuring a C-based interceptor implementing DNS protocol handling, a Python API, a health-checker deployed as a StatefulSet, and a React administration interface. Supports single-target, multi-value, weighted, round-trip, and geolocation-based routing.
 
 **Contributions:** Developed the API and Firebase data layer and implemented Helm charts.
 
