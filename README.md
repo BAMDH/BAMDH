@@ -5,16 +5,16 @@ Computer Engineering student at **Tecnológico de Costa Rica**, focused on **dat
 My main interests are **infrastructure design and process automation**.
 
 ## Tech Stack
-
-| Area | Technologies |
+| Area | Tools |
 |---|---|
-| **Data Modeling & Databases** | Relational database design, MariaDB, PostgreSQL, Firebase, Supabase |
-| **Infrastructure & DevOps** | Kubernetes, Helm, Docker, Docker Compose, Ingress, StatefulSets, nftables |
+| **Data modeling & databases** | Relational design, PostgreSQL (Supabase, Row Level Security), MariaDB, Firebase (Firestore) |
+| **Infrastructure & DevOps** | Kubernetes, Helm, Docker, docker-compose, Ingress, StatefulSets, nftables |
 | **Observability** | Prometheus, Grafana |
 | **Messaging** | RabbitMQ |
-| **Backend & Programming** | Python (Flask), Node.js, C, Java, SQL |
-| **Frontend & Mobile** | Angular, React, TypeScript, Bootstrap, Android (Java) |
-| **Networking & Protocols** | DNS (RFC 1035), SIP/VoIP, NGINX, Apache |
+| **Backend** | Python (Flask), Node.js (Express), C, Java, SQL |
+| **Frontend & mobile** | React, TypeScript, Angular, Tailwind CSS, Bootstrap, Android (Java) |
+| **Networking** | DNS (RFC 1035), SIP/VoIP, NGINX, Apache |
+
 
 ## Featured Projects
 
@@ -51,8 +51,6 @@ A crowdfunding platform with an Angular web application and a native Android cli
 
 `Angular` `Java` `Firebase`
 
-## Client Work (Private)
+## Client work 
 
-Designed the database and developed the administrator module for a course-management platform used by a training center, integrating it with the platform's existing modules.
-
-**The source code is private at the client's request.**
+**Course-management platform for a training center** (academic project for a real client). I designed the PostgreSQL database (16 tables, role-based Row Level Security policies, audit log) and built the complete administrator module in React and TypeScript on Supabase, integrated with the student and teacher modules.
